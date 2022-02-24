@@ -82,4 +82,70 @@
     height: 100px;
     background-color: var(--sub-color);
   }
+
+  /* cs공통영역 */
+  .cs .subLogo{
+    margin-top: var(--margin-4);
+    margin-bottom: var(--margin-3);
+  
+  
+  }
+  .cs .subLogo img{
+    height: 20px;
+    max-width: 100%;
+  }
+  
+  
+  .csWrap .box{
+    margin-bottom: var(--margin-2);
+  }
+  
+  .csWrap .photo{
+    order: 1;
+  }
+  
+  
+  .csWrap .photo div{
+    width:calc(50% - 12px);
+    height: 20vw;
+  }
+  
+  .csWrap .box .txt{
+    margin: var(--margin-2) 0;
+    letter-spacing: 1px;
+    order:2
+  }
+  
+  .csWrap .box .txt h4{
+    margin-bottom: var(--margin-half);
+    font-size: 16px;
+  }
+  
+  .csWrap .box .txt p{
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .csWrap .box .txt p br{
+    display: block;
+  }
+
+
+  /*case 고유영역*/
+
+  
+#case .subImg .mainImg{
+  display: block;
+  margin-top: var(--margin-2);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+#case .subImg .copyLogo{
+  width: 30%;
+  display: block;
+  margin:0 auto var(--margin-4);
+}
+
+}/*괄호끝*/

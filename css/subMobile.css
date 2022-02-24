@@ -536,7 +536,82 @@ img.subDivider {
 }
 
 
-/* cs영역 */
+/* cs영역 공통*/
+
+.csWrap{
+  max-width: 1008px;
+  margin:0 auto;
+}
+
+.cs .subLogo{
+  max-width: 1008px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cs .subLogo img{
+  height: 15px;
+  max-width: 100%;
+}
+
+.csWrap .box{
+  margin-bottom: var(--margin-2);
+  display: flex;
+  flex-direction: column;
+}
+
+.csWrap .photo{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  order: 2;
+
+}
+
+.csWrap .photo div{
+  width:100%;
+  height: 60vw;
+  background:pink;
+  border: 10px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  position: relative;
+  margin-bottom: 6px;
+}
+
+.csWrap .photo div:before{
+  width: calc(100% + 10px);
+  height: calc(100% + 10px);
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  border:1px solid #fff;
+  content: '';
+}
+
+.csWrap .box .txt{
+  text-align: center;
+  color: var(--font-color-main);
+  margin: var(--margin-1) 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.csWrap .box .subImg{
+  order: 3;
+}
+.csWrap .box .txt h4{
+  margin-bottom: var(--margin-half);
+}
+
+.csWrap .box .txt p{
+  font-size: 12px;
+  color:var(--font-color-sub);
+}
+
+.csWrap .box .txt p br{
+  display: none;
+}
+
+
 
 /* after service 페이지 */
 
@@ -551,7 +626,78 @@ img.subDivider {
   background-repeat: no-repeat;
 }
 
-#as .subLogo img{
-  height: 20px;
-  max-width: 100%;
+#as .photo div{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:150%;
+}
+
+#as .box1 .photo1{
+  background-image: url(../images/as/as_img1.png);
+}
+#as .box1 .photo2{
+  background-image: url(../images/as/as_img2.png);
+}
+#as .box2 .photo1{
+  background-image: url(../images/as/as_img3.png);
+}
+#as .box2 .photo2{
+  background-image: url(../images/as/as_img4.png);
+}
+#as .box3 .photo1{
+  background-image: url(../images/as/as_img5.png);
+}
+#as .box3 .photo2{
+  background-image: url(../images/as/as_img6.png);
+}
+#as .box4 .photo1{
+  background-image: url(../images/as/as_img7.png);
+}
+#as .box4 .photo2{
+  background-image: url(../images/as/as_img8.png);
+}
+
+
+/* after service 페이지 */
+
+.subBnCase{
+  background-image: url(../images/case/bg_case.png);
+}
+#case .subLogo{
+  background-image: url(../images/case/bg_case.png);
+  padding: var(--margin-half) 0;
+  background-position: left -140px center;
+  background-size: 150% auto;
+  background-repeat: no-repeat;
+}
+
+#case .photo div{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:150%;
+}
+
+#case .box1 .photo1{
+  background-image: url(../images/case/case_img1.png);
+}
+#case .box1 .photo2{
+  background-image: url(../images/case/case_img2.png);
+}
+
+#case .subImg .mainImg{
+  display: block;
+  margin-top: var(--margin-2);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#case .subImg .copyLogo{
+  width: 50%;
+  display: block;
+  margin:0 auto;
+}
+
+#case .box2 .txt{
+  order:2;
 }

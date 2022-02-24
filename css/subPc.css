@@ -3,9 +3,8 @@
     height: 280px;
     margin-top: 100px;
   }
-  .subBn h2 {
-    line-height: 280px;
-    font-size: 2rem;
+  .subBn h2 img{
+    height: 20px;
   }
   main {
     max-width: 1320px;
@@ -176,4 +175,57 @@
   #effect .txt {
     align-items: flex-start;
   }
+
+
+  /*customer 영역*/
+
+.cs .subLogo{
+  margin-top: var(--margin-4);
+  margin-bottom: var(--margin-3);
+
+
+}
+.cs .subLogo img{
+  height: 20px;
+  max-width: 100%;
+}
+
+
+.csWrap .box{
+  margin-bottom: var(--margin-2);
+}
+
+.csWrap .photo{
+  order: 1;
+}
+
+
+.csWrap .photo div{
+  width:calc(50% - 12px);
+  height: 20vw;
+}
+
+.csWrap .box .txt{
+  margin: var(--margin-2) 0;
+  letter-spacing: 1px;
+  order:2
+}
+
+.csWrap .box .txt h4{
+  margin-bottom: var(--margin-half);
+  font-size: 16px;
+}
+
+.csWrap .box .txt p{
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.csWrap .box .txt p br{
+  display: block;
+}
+  /* after service */
+
+
+
 } /*1200*/
