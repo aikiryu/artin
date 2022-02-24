@@ -16,19 +16,19 @@
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.subBnIntro {
-  background-image: url(../images/subbnIntro.png);
+
+.subBn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.subBn h2 {
-  line-height: 100px;
-  font-size: 1.6rem;
-  text-align: center;
-  user-select: none;
-  z-index: 3;
-  position: relative;
-  font-family: "winchester";
-  letter-spacing: 10px;
+.subBn h2 img{
+  height: 10px;
+  display: block;
 }
 h3.subPageLogo {
   text-align: center;
@@ -63,6 +63,12 @@ h3.divTit {
   padding: 5px 0;
   text-indent: 6px;
   margin-bottom: var(--margin-1);
+}
+
+h3.subLogo{
+  max-width: 1144px;
+  text-align: center;
+  margin: var(--margin-1) auto;
 }
 
 img.subDivider {
@@ -322,15 +328,19 @@ img.subDivider {
 
 #intro .keyword h4 {
   color: var(--font-color-point);
+  font-weight: 400;
+  font-size: 20px;
+  font-family: 'quicksand';
 }
 #intro .keyword h4 span {
   color: var(--font-color-sub);
   margin-left: 5px;
+  font-size: 14px;
 }
 #intro .keyword .eng {
   font-size: 0.8rem;
   color: var(--font-color-sub);
-  line-height: 2rem;
+  margin-bottom: var(--margin-half);
 }
 
 #intro .keyword br {
@@ -523,4 +533,25 @@ img.subDivider {
 #brand .viewImg img {
   width: 100%;
   vertical-align: top;
+}
+
+
+/* cs영역 */
+
+/* after service 페이지 */
+
+.subBnAs{
+  background-image: url(../images/as/bg_as.png);
+}
+#as .subLogo{
+  background-image: url(../images/as/bg_as.png);
+  padding: var(--margin-half) 0;
+  background-position: left -140px center;
+  background-size: 150% auto;
+  background-repeat: no-repeat;
+}
+
+#as .subLogo img{
+  height: 20px;
+  max-width: 100%;
 }

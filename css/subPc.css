@@ -87,6 +87,7 @@
 
   #intro h2 p {
     margin-bottom: var(--margin-2);
+    font-weight: 100;
   }
 
   #intro .subscription {

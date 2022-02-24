@@ -23,7 +23,7 @@
   }
   #intro .keyword .eng {
     line-height: normal;
-    margin: var(--margin-1) 0;
+    margin: var(--margin-half) 0 var(--margin-1);
   }
 
   #sig .sigWrap,
