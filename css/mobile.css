@@ -1,168 +1,4 @@
-header {
-  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  position: fixed;
-  height: 60px;
-  z-index: 999;
-  top: 0;
-  left: 0;
-  background-color: #fff;
-}
 
-.hWrap {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-header h1 {
-  text-align: center;
-  padding-top: 8px;
-  width: 100%;
-}
-
-header h1 img {
-  height: 44px;
-}
-
-.navOpen {
-  background-color: transparent;
-  border: 0;
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: 0.5s ease-in-out;
-  -moz-transition: 0.5s ease-in-out;
-  -o-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-  cursor: pointer;
-  z-index: 120;
-}
-
-.navOpen span {
-  display: block;
-  position: absolute;
-  height: 4px;
-  width: 28px;
-  background: var(--main-color);
-  border-radius: 9px;
-  opacity: 1;
-  left: 11px;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: 0.25s ease-in-out;
-  -moz-transition: 0.25s ease-in-out;
-  -o-transition: 0.25s ease-in-out;
-  transition: 0.25s ease-in-out;
-}
-
-.navOpen span:nth-child(1) {
-  top: 16px;
-  -webkit-transform-origin: left center;
-  -moz-transform-origin: left center;
-  -o-transform-origin: left center;
-  transform-origin: left center;
-}
-
-.navOpen span:nth-child(2) {
-  top: 24px;
-  -webkit-transform-origin: left center;
-  -moz-transform-origin: left center;
-  -o-transform-origin: left center;
-  transform-origin: left center;
-}
-
-.navOpen span:nth-child(3) {
-  top: 32px;
-  -webkit-transform-origin: left center;
-  -moz-transform-origin: left center;
-  -o-transform-origin: left center;
-  transform-origin: left center;
-}
-
-.navOpen.open span:nth-child(1) {
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-  top: 11px;
-  left: 14px;
-}
-
-.navOpen.open span:nth-child(2) {
-  width: 0%;
-  opacity: 0;
-}
-
-.navOpen.open span:nth-child(3) {
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  top: 31px;
-  left: 13px;
-}
-
-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 99;
-  width: 100%;
-  height: 100vh;
-  font-size: 0.85rem;
-  display: none;
-  box-sizing: border-box;
-  padding: 60px 20px;
-  background-color: #fff;
-}
-
-.gnb > li {
-  line-height: 3.5;
-  text-indent: 15px;
-  position: relative;
-}
-
-.gnb > li:before {
-  content: "";
-  display: block;
-  width: 5px;
-  height: 5px;
-  border-right: 1px solid var(--main-color);
-  border-bottom: 1px solid var(--main-color);
-  transform: rotate(45deg);
-  position: absolute;
-  right: 15px;
-  top: 20px;
-}
-
-.gnb > li > a {
-  border-bottom: 1px solid var(--main-color-light);
-  display: block;
-}
-
-.gnb > li.open:before {
-  transform: rotate(225deg);
-}
-
-.sub {
-  background-color: #decbb527;
-  color: #6f6f6f;
-  display: none;
-}
-.sub li {
-  border-bottom: #e6d4d2 1px solid;
-}
-.sub li a {
-  display: block;
-}
 .banner {
   margin-top: 60px;
   background-image: url(../images/mainHeaderBg.png);
@@ -259,6 +95,7 @@ main {
   color: var(--font-color-sub);
   margin-top: 5px;
   letter-spacing: 5px;
+  font-weight: 100;
 }
 #brands h4 img {
   height: 20px;
@@ -303,16 +140,21 @@ main {
 }
 
 #cs,
-#as {
+#as,#insta {
   margin-top: var(--margin-2);
 }
 #cs .titBox h3,
-#as .titBox h3 {
+#as .titBox h3, 
+#insta h3 {
   font-family: "Quicksand";
   font-size: 24px;
   color: var(--font-color-main);
   font-weight: 100;
   text-align: center;
+}
+
+#insta h3{
+  margin-bottom: var(--margin-1);
 }
 
 #cs .itemWrap,
@@ -358,6 +200,7 @@ main {
   font-weight: 100;
   font-family: "Qicksand";
   color: var(--font-color-main);
+  line-height: 1;
 }
 
 .csItem p,
@@ -366,8 +209,40 @@ main {
   font-size: 12px;
 }
 
-#insta .box {
+#insta .box .inner{
   width: 200px;
   height: 200px;
   background-color: pink;
+}
+
+
+footer {
+  margin-top: var(--margin-4);
+  background-color: var(--font-color-main);
+  color: #eee;
+  padding: var(--margin-1) 0;
+}
+
+.fWrap {
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--margin-2);
+}
+footer h1 {
+  text-align: left;
+}
+
+footer h1 img {
+  height: 40px;
+}
+address {
+  margin-top: var(--margin-1);
+  font-style: normal;
+}
+
+address span {
+  display: block;
 }

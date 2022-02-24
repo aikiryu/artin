@@ -1,94 +1,5 @@
 @media all and (min-width: 1200px) {
-  header {
-    height: 120px;
-    box-shadow: none;
-    position: absolute;
-    background-color: transparent;
-  }
-
-  .hWrap {
-    position: relative;
-    max-width: 1320px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  header.on {
-    transition: all 0.5s linear;
-    height: 100px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgba(255, 255, 255, 0.3);
-  }
-  header.on h1 {
-    z-index: 30;
-    position: absolute;
-    left: 0;
-    top: 20px;
-    width: auto;
-    padding-top: 0;
-  }
-
-  header.on nav {
-    position: absolute;
-    top: 40px;
-    left: 0;
-    width: 100%;
-  }
-  header h1 {
-    text-align: left;
-    padding-top: 20px;
-  }
-  header h1 img {
-    height: 60px;
-  }
-
-  .navOpen {
-    display: none;
-  }
-
-  nav {
-    display: block !important;
-    font-size: 1rem;
-    position: absolute;
-    top: 40px;
-    padding: 0;
-    height: auto;
-    width: auto;
-    right: 0;
-    left: unset;
-    background-color: transparent;
-  }
-
-  .gnb {
-    display: flex;
-    font-family: "Quicksand", sans-serif;
-  }
-
-  .gnb > li {
-    margin-left: var(--margin-2);
-    padding: 0;
-  }
-  .gnb > li > a {
-    line-height: normal;
-    border: 0;
-    font-size: 18px;
-  }
-  .gnb > li:before {
-    content: none;
-  }
-  .sub {
-    background-color: none;
-    position: absolute;
-    top: 22px;
-    left: 50%;
-    margin-left: -75px;
-    width: 150px;
-    box-sizing: border-box;
-    text-align: center;
-  }
+ 
 
   .banner {
     margin-top: 0;
@@ -260,8 +171,9 @@
   .csItem:last-child {
     margin-bottom: 0;
   }
-  .csItem h4 {
+  .csItem h4, .asItem h4 {
     font-size: 28px;
+    margin-bottom: var(--margin-half);
   }
   .csItem .txt,
   .asItem .txt {
@@ -269,4 +181,9 @@
     top: var(--margin-1);
     left: var(--margin-1);
   }
+
+  footer {
+    border-top: 2px solid var(--main-color-light);
+  }
+
 } /*1024*/

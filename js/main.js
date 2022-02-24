@@ -6,7 +6,7 @@ let main = ()=>{
   });
 
     $('.snsSlider').slick({
-        'slidesToShow' : 5,
+        'slidesToShow' : 6,
         'slidesToScroll' : 1,
         'centerMode' : true,
         arrows:false,
