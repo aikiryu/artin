@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: "nanum gothic";
+  font-size: 14px;
+  color: #2f2f2f;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+address {
+  font-style: none;
+}
+
+.raleway {
+  font-family: "raleway";
+}
+
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+}
+
+@font-face {
+  font-family: "winchester";
+  src: "../font/winchester.woff";
+}
+
+:root {
+  --main-color: #beaf78;
+  --main-color-light: #decbb5;
+  --main-color-medium: #d8c1a6;
+  --sub-color: #e6d4d2;
+  --font-color-main: #2f2f2f;
+  --font-color-sub: #6f6f6f;
+  --font-color-point: #ddbc95;
+
+  --margin-1: calc(24px * 1);
+  --margin-2: calc(24px * 2);
+  --margin-3: calc(24px * 3);
+  --margin-4: calc(24px * 4);
+  --margin-5: calc(24px * 5);
+  --margin-6: calc(24px * 6);
+  --margin-7: calc(24px * 7);
+
+  --margin-half: 12px;
+
+  --grid-1: 88px;
+}

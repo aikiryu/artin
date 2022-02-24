@@ -1,0 +1,85 @@
+@media all and (min-width: 768px) {
+  .subBn h2 {
+    line-height: 150px;
+  }
+
+  #intro .introWrap3 {
+    display: flex;
+    justify-content: space-between;
+  }
+  #intro .keyword {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    width: 31%;
+  }
+
+  #intro .keyword h4 {
+  }
+  #intro .keyword h4 span {
+    display: block;
+  }
+  #intro .keyword .eng {
+    line-height: normal;
+    margin: var(--margin-1) 0;
+  }
+
+  #sig .sigWrap,
+  #effect .effectWrap {
+    margin-top: var(--margin-3);
+  }
+
+  #sig .box,
+  #effect .box {
+    flex-direction: row;
+  }
+  #sig .photo,
+  #effect .photo {
+    width: 350px;
+    height: 220px;
+    margin-right: var(--margin-1);
+  }
+  #sig .txt,
+  #effect .txt {
+    padding: 0;
+    width: calc(100% - 374px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+  #sig .txt br,
+  #effect .txt br {
+  }
+
+  #sig h4 {
+    text-align: left;
+  }
+  #brand .subPageLogo img {
+    width: 250px;
+  }
+
+  #brand .txtBox {
+    margin-bottom: var(--margin-3);
+  }
+  #brand .imgBox {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #brand .subTxt br {
+    display: block;
+  }
+  #brand .subTxt span {
+    display: inline;
+  }
+  #brand .viewList .box a {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: var(--sub-color);
+  }
+}

@@ -1,0 +1,272 @@
+@media all and (min-width: 1200px) {
+  header {
+    height: 120px;
+    box-shadow: none;
+    position: absolute;
+    background-color: transparent;
+  }
+
+  .hWrap {
+    position: relative;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  header.on {
+    transition: all 0.5s linear;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  header.on h1 {
+    z-index: 30;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: auto;
+    padding-top: 0;
+  }
+
+  header.on nav {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+  }
+  header h1 {
+    text-align: left;
+    padding-top: 20px;
+  }
+  header h1 img {
+    height: 60px;
+  }
+
+  .navOpen {
+    display: none;
+  }
+
+  nav {
+    display: block !important;
+    font-size: 1rem;
+    position: absolute;
+    top: 40px;
+    padding: 0;
+    height: auto;
+    width: auto;
+    right: 0;
+    left: unset;
+    background-color: transparent;
+  }
+
+  .gnb {
+    display: flex;
+    font-family: "Quicksand", sans-serif;
+  }
+
+  .gnb > li {
+    margin-left: var(--margin-2);
+    padding: 0;
+  }
+  .gnb > li > a {
+    line-height: normal;
+    border: 0;
+    font-size: 18px;
+  }
+  .gnb > li:before {
+    content: none;
+  }
+  .sub {
+    background-color: none;
+    position: absolute;
+    top: 22px;
+    left: 50%;
+    margin-left: -75px;
+    width: 150px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .banner {
+    margin-top: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 0;
+  }
+
+  .bnWrap {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .banner .photo {
+    margin-top: 40px;
+    width: 24vw;
+    max-width: 50%;
+    height: 32vw;
+    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.3);
+  }
+
+  .p1,
+  .p2,
+  .p3,
+  .p4 {
+    width: 24vw;
+    height: 32vw;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .banner .txt {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .banner h2 {
+    font-size: 52px;
+    font-weight: 100;
+    text-align: left;
+    margin-bottom: var(--margin-1);
+  }
+
+  .mainWrap {
+    max-width: 1144px;
+    margin: 0 auto;
+  }
+
+  .s1Wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .brandItem {
+    width: calc(50% - 12px);
+    margin-bottom: var(--margin-1);
+  }
+
+  #brands h4 {
+  }
+  #brands h4 img {
+    height: 25px;
+  }
+  #brands h4 .smallTxt {
+    margin-top: var(--margin-half);
+  }
+  .brandItem .hover {
+    transition: all 1s;
+    opacity: 0;
+  }
+
+  .brandItem:hover .hover {
+    opacity: 1;
+  }
+  .brandItem3 .hover {
+    background-image: url(../images/main/mainBrandBg3.png);
+    background-position: right top;
+    background-size: auto;
+  }
+
+  .s2Wrap,
+  .s3Wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #as {
+    margin-top: var(--margin-3);
+  }
+  #cs .titBox,
+  #as .titBox {
+    width: calc(50% - 12px);
+    background-image: url(../images/main/titBox1.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: -140px bottom;
+  }
+
+  #as .titBox {
+    background-image: url(../images/main/titBox2.png);
+    background-position: -400px bottom;
+    order: 2;
+  }
+
+  #cs .itemWrap,
+  #as .itemWrap {
+    width: calc(50% - 12px);
+    margin-top: 0;
+  }
+  #cs .titBox h3,
+  #as .titBox h3 {
+    text-align: right;
+    color: #fff;
+    font-size: 62px;
+    padding-top: 30px;
+    padding-right: 40px;
+  }
+
+  #as .titBox h3 {
+    text-align: left;
+    padding-right: 0;
+    padding-left: 40px;
+  }
+
+  #cs .titBox:before,
+  #as .titBox:before {
+    content: "";
+    width: calc(100% - 20px);
+    height: calc((100% - 20px));
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  #cs h3 br,
+  #as h3 br {
+    display: block;
+  }
+  #cs .flower {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  #as .flowerL {
+    display: block;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+  }
+  #as .flowerR {
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 0;
+  }
+  .csItem:last-child {
+    margin-bottom: 0;
+  }
+  .csItem h4 {
+    font-size: 28px;
+  }
+  .csItem .txt,
+  .asItem .txt {
+    position: absolute;
+    top: var(--margin-1);
+    left: var(--margin-1);
+  }
+} /*1024*/
