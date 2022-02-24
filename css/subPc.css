@@ -155,75 +155,11 @@
     margin: var(--margin-1) 0;
   }
 
-  #sig .sigWrap,
-  #effect .effectWrap {
-    max-width: 750px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #sig .box,
-  #effect .box {
-    border-bottom: 1px solid var(--main-color-light);
-    padding-bottom: var(--margin-1);
-  }
-  #sig .txt br,
-  #effect .txt br {
-    display: block;
-  }
-  #sig .txt,
-  #effect .txt {
-    align-items: flex-start;
-  }
 
 
   /*customer 영역*/
 
-.cs .subLogo{
-  margin-top: var(--margin-4);
-  margin-bottom: var(--margin-3);
 
-
-}
-.cs .subLogo img{
-  height: 20px;
-  max-width: 100%;
-}
-
-
-.csWrap .box{
-  margin-bottom: var(--margin-2);
-}
-
-.csWrap .photo{
-  order: 1;
-}
-
-
-.csWrap .photo div{
-  width:calc(50% - 12px);
-  height: 20vw;
-}
-
-.csWrap .box .txt{
-  margin: var(--margin-2) 0;
-  letter-spacing: 1px;
-  order:2
-}
-
-.csWrap .box .txt h4{
-  margin-bottom: var(--margin-half);
-  font-size: 16px;
-}
-
-.csWrap .box .txt p{
-  font-size: 14px;
-  line-height: 1.6;
-}
-
-.csWrap .box .txt p br{
-  display: block;
-}
   /* after service */
 
 

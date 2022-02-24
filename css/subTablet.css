@@ -26,38 +26,6 @@
     margin: var(--margin-half) 0 var(--margin-1);
   }
 
-  #sig .sigWrap,
-  #effect .effectWrap {
-    margin-top: var(--margin-3);
-  }
-
-  #sig .box,
-  #effect .box {
-    flex-direction: row;
-  }
-  #sig .photo,
-  #effect .photo {
-    width: 350px;
-    height: 220px;
-    margin-right: var(--margin-1);
-  }
-  #sig .txt,
-  #effect .txt {
-    padding: 0;
-    width: calc(100% - 374px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-  }
-  #sig .txt br,
-  #effect .txt br {
-  }
-
-  #sig h4 {
-    text-align: left;
-  }
   #brand .subPageLogo img {
     width: 250px;
   }
@@ -103,6 +71,11 @@
   .csWrap .photo{
     order: 1;
   }
+
+  .csWrap .photo div:nth-child(1),
+  .csWrap .photo div:nth-child(2){
+    margin-bottom: var(--margin-1);
+  }
   
   
   .csWrap .photo div{
@@ -147,5 +120,13 @@
   display: block;
   margin:0 auto var(--margin-4);
 }
+
+
+/* sig 고유영역 */
+
+#sig .longer{
+  width: 100%;
+}
+
 
 }/*괄호끝*/
