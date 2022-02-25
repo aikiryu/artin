@@ -128,5 +128,79 @@
   width: 100%;
 }
 
+/* effect stone 고유영역 */
+
+#effect .subLogo{
+  background-image: url(../images/effect/bg_effect.png);
+  padding: var(--margin-half) 0;
+  background-position: left -140px center;
+  background-size: 150% auto;
+  background-repeat: no-repeat;
+}
+
+
+#effect .box1 .txt span{
+  display: block;
+  margin-bottom: var(--margin-half);
+}
+
+#effect .box2 .txt{
+  order: 1;
+}
+#effect .box2 .boxWrap{
+  order: 2;
+}
+#effect .row{
+  margin-bottom: var(--margin-2);
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding-bottom: var(--margin-1);
+}
+
+#effect .row:last-child{
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+#effect .row h5{
+  font-size: 14px;
+  color: var(--font-color-main);
+}
+
+#effect .row h5 span{
+  font-weight: normal;
+}
+#effect .row p{
+  font-size: 12px;
+  color: var(--font-color-sub);
+  margin-bottom: var(--margin-half);
+  line-height: 1.6;
+}
+
+#effect .row article{
+  letter-spacing: 1px;
+  line-height: 1.4;
+  font-size: 14px;
+  text-align: left;
+}
+#effect .row .pic{
+  width: calc(40% - 12px);
+  margin-bottom: var(--margin-half);
+}
+#effect .row .pic div{
+  width: calc(50% - 6px);
+  height: 10vw;
+  position: relative;
+  margin-bottom: 6px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#effect .row .detail{
+  width:calc(60% - 12px)
+}
+
 
 }/*괄호끝*/

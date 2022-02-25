@@ -46,6 +46,11 @@ p.subPageTitSub {
   text-align: center;
   margin-top: var(--margin-2);
 }
+
+p.subPageTitSub span{
+  display: block;
+  margin-bottom: var(--margin-half);
+}
 p.subPageTit span {
   display: block;
   margin-bottom: var(--margin-half);
@@ -254,6 +259,7 @@ img.subDivider {
 
 #intro .intrologo2 {
   width: 120px;
+  text-align: center;
 }
 #intro h2 p {
   letter-spacing: 4px;
@@ -663,7 +669,176 @@ img.subDivider {
 #sig .box1 .photo4{
   background-image: url(../images/sig/sig_img4.png);
 }
+#sig .box2 .photo1{
+  background-image: url(../images/sig/sig_img5.png);
+}
+#sig .box2 .photo2{
+  background-image: url(../images/sig/sig_img6.png);
+}
+#sig .box2 .photo3{
+  background-image: url(../images/sig/sig_img7.png);
+  background-position: center top -10px;
+}
+
+#sig .box3 .photo1{
+  background-image: url(../images/sig/sig_img8.png);
+}
+#sig .box3 .photo2{
+  background-image: url(../images/sig/sig_img9.png);
+}
+#sig .box3 .photo3{
+  background-image: url(../images/sig/sig_img10.png);
+}
+#sig .box3 .photo4{
+  background-image: url(../images/sig/sig_img11.png);
+}
+
+
+#sig .box4 .photo1{
+  background-image: url(../images/sig/sig_img12.png);
+}
+#sig .box4 .photo2{
+  background-image: url(../images/sig/sig_img13.png);
+}
+#sig .box4 .photo3{
+  background-image: url(../images/sig/sig_img14.png);
+}
+#sig .box4 .photo4{
+  background-image: url(../images/sig/sig_img15.png);
+}
+
 #sig .photo div{
   background-position: center;
   background-size: cover;
+}
+
+/* effect 페이지 */
+
+
+.subBnEffect{
+  background-image: url(../images/effect/bg_effect.png);
+}
+
+
+#effect .subLogo{
+  background-image: url(../images/effect/bg_effect.png);
+  padding: var(--margin-half) 0;
+  background-position: left -140px center;
+  background-size: 150% auto;
+  background-repeat: no-repeat;
+}
+
+#effect .box1 .photo1{
+  background-image: url(../images/effect/eff_img1.png);
+}
+#effect .box1 .photo2{
+  background-image: url(../images/effect/eff_img2.png);
+}
+
+#effect .photo div{
+  background-position: center;
+  background-size: cover;
+}
+
+#effect .box1 .txt span{
+  display: block;
+  margin-bottom: var(--margin-half);
+}
+#effect .row{
+  margin-bottom: var(--margin-2);
+  text-align: center;
+}
+#effect .row h5{
+  font-size: 14px;
+  color: var(--font-color-main);
+}
+
+
+#effect .row1 h5 strong{color:#be1e2d}
+#effect .row2 h5 strong{color:#92278f}
+#effect .row3 h5 strong{color:#1da1dc}
+#effect .row4 h5 strong{color:#37795a}
+#effect .row5 h5 strong{color:#ed1c24}
+#effect .row6 h5 strong{color:#5ca23a}
+#effect .row7 h5 strong{color:#2e3192}
+#effect .row8 h5 strong{color:#cc5b44}
+
+#effect .row h5 span{
+  font-weight: normal;
+}
+#effect .row p{
+  font-size: 12px;
+  color: var(--font-color-sub);
+  margin-bottom: var(--margin-half);
+  line-height: 1.6;
+}
+
+#effect .row article{
+  letter-spacing: 1px;
+  line-height: 1.4;
+  font-size: 14px;
+  text-align: left;
+}
+#effect .row .pic{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--margin-half);
+}
+#effect .row .pic div{
+  width: calc(50% - 6px);
+  height: 30vw;
+  position: relative;
+  margin-bottom: 6px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#effect .row1 .pic1{
+  background-image: url(../images/effect/gem_img1.png);
+}
+#effect .row1 .pic2{
+  background-image: url(../images/effect/gem_img2.png);
+}
+#effect .row2 .pic1{
+  background-image: url(../images/effect/gem_img3.png);
+}
+#effect .row2 .pic2{
+  background-image: url(../images/effect/gem_img4.png);
+}
+#effect .row3 .pic1{
+  background-image: url(../images/effect/gem_img5.png);
+}
+#effect .row3 .pic2{
+  background-image: url(../images/effect/gem_img6.png);
+}
+#effect .row4 .pic1{
+  background-image: url(../images/effect/gem_img7.png);
+}
+#effect .row4 .pic2{
+  background-image: url(../images/effect/gem_img8.png);
+}
+#effect .row5 .pic1{
+  background-image: url(../images/effect/gem_img9.png);
+}
+#effect .row5 .pic2{
+  background-image: url(../images/effect/gem_img10.png);
+}
+#effect .row6 .pic1{
+  background-image: url(../images/effect/gem_img11.png);
+}
+#effect .row6 .pic2{
+  background-image: url(../images/effect/gem_img12.png);
+}
+#effect .row7 .pic1{
+  background-image: url(../images/effect/gem_img13.png);
+}
+#effect .row7 .pic2{
+  background-image: url(../images/effect/gem_img14.png);
+}
+#effect .row8 .pic1{
+  background-image: url(../images/effect/gem_img15.png);
+}
+#effect .row8 .pic2{
+  background-image: url(../images/effect/gem_img16.png);
 }
