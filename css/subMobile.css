@@ -485,6 +485,43 @@ img.subDivider {
   vertical-align: top;
 }
 
+#brand .slick-dots {
+  margin-top: 5px;
+  margin-left: -5px;
+  margin-right: -5px;
+  display: flex;
+  justify-content: center;
+}
+#brand .slick-dots li {
+  list-style: none;
+  display: inline-block;
+  max-width: 112px;
+  max-hegiht: 56px;
+  margin: 5px;
+}
+#brand .slick-dots li img {
+  opacity: 0.5;
+  width: 100%;
+  height: auto;
+}
+#brand .slick-dots li.slick-active img {
+  opacity: 1;
+}
+
+#brand .slick-prev {
+  position: absolute;
+  z-index: 99;
+  top: 120px;
+  left: -50px;
+}
+
+#brand .slick-next {
+  position: absolute;
+  z-index: 99;
+  top: 120px;
+  right: -50px;
+}
+
 
 /* cs영역 공통*/
 
@@ -842,3 +879,4 @@ img.subDivider {
 #effect .row8 .pic2{
   background-image: url(../images/effect/gem_img16.png);
 }
+
