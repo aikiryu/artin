@@ -228,4 +228,37 @@
     background-color: pink;
     margin-bottom: var(--margin-1);
   }
+
+  /*reservation*/
+
+  
+#reserv label{
+  width:100px;
+  letter-spacing: 10px;
+}
+
+#reserv input[type=text]{
+  width: calc(100% - 120px);
+
+}
+
+#reserv textarea{
+  height: 150px;
+  border: 1px solid var(--main-color-medium);
+  background-color: transparent;
+  width: calc(100% - 120px);
+  color: var(--font-color-sub);
+
+}
+
+#reserv .submit{
+  width: 140px;
+  line-height: 42px;
+  border: 0;
+  background-color: var(--main-color-medium);
+  color: #fff;
+  margin: var(--margin-2) auto 0;
+  display: block;
+}
+
 } /*괄호끝*/

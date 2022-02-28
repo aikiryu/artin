@@ -748,6 +748,13 @@ img.subDivider {
 .subBnSig {
   background-image: url(../images/sig/bg_sig.png);
 }
+#sig .subLogo{
+  background-image: url(../images/sig/bg_sig.png);
+  padding: var(--margin-half) 0;
+  background-position: left -140px center;
+  background-size: 150% auto;
+  background-repeat: no-repeat;
+}
 #sig .box1 .photo1 {
   background-image: url(../images/sig/sig_img1.png);
 }
@@ -798,8 +805,9 @@ img.subDivider {
 }
 
 #sig .photo div {
+  background-size: 135% auto;
+  background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
 }
 
 /* effect 페이지 */
@@ -980,6 +988,89 @@ img.subDivider {
   font-size: 18px;
   color: #fff;
   font-family: "quicksand";
+  font-weight: 100;
+  text-align: center;
+  margin: var(--margin-2) auto 0;
+  display: block;
+}
+
+/*reservation*/
+.subBnReserv{
+  background-image: url(../images/bnReserve.jpg);
+}
+
+#reserv{
+  max-width: 1008px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#reserv form:after{
+  content: '';
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  position: absolute;
+  top:10px;
+  box-sizing: border-box;
+  left: 10px;
+  border:1px solid var(--main-color-light);
+  border-radius: 5px;
+}
+
+#reserv form{
+  background-color: rgb(253, 252, 251);
+  border-radius: 5px;
+  padding:var(--margin-2);
+  position: relative;
+}
+
+#reserv form div{
+  position: relative;
+  display: flex;  
+  margin-bottom:var(--margin-1);
+  justify-content: space-between;
+  z-index: 2;
+}
+
+#reserv form div:nth-child(4){
+  margin-bottom: var(--margin-2);
+}
+#reserv label{
+  font-family: 'irk';
+  font-size: 16px;
+  width: 80px;
+  letter-spacing: 4px;
+}
+
+#reserv div:nth-child(5) label{
+  letter-spacing: 1px;
+}
+#reserv input[type=text]{
+  border: 0;
+  border-bottom: 1px solid var(--main-color-medium);
+  background-color: transparent;
+  width: calc(100% - 100px);
+  color: var(--font-color-sub);
+
+}
+
+#reserv textarea{
+  height: 100px;
+  border: 1px solid var(--main-color-medium);
+  background-color: transparent;
+  width: calc(100% - 100px);
+  color: var(--font-color-sub);
+
+}
+
+#reserv .submit{
+  width: 140px;
+  line-height: 42px;
+  border: 0;
+  background-color: var(--main-color-medium);
+  font-size: 14px;
+  color: #fff;
+  font-family: "irk";
   font-weight: 100;
   text-align: center;
   margin: var(--margin-2) auto 0;
