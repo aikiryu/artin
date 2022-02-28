@@ -1,6 +1,4 @@
 @media all and (min-width: 1200px) {
- 
-
   .banner {
     margin-top: 0;
     height: 100vh;
@@ -171,7 +169,8 @@
   .csItem:last-child {
     margin-bottom: 0;
   }
-  .csItem h4, .asItem h4 {
+  .csItem h4,
+  .asItem h4 {
     font-size: 28px;
     margin-bottom: var(--margin-half);
   }
@@ -181,9 +180,4 @@
     top: var(--margin-1);
     left: var(--margin-1);
   }
-
-  footer {
-    border-top: 2px solid var(--main-color-light);
-  }
-
 } /*1024*/

@@ -1,9 +1,9 @@
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1024px) {
   .subBn {
     height: 280px;
     margin-top: 100px;
   }
-  .subBn h2 img{
+  .subBn h2 img {
     height: 20px;
   }
   main {
@@ -155,13 +155,7 @@
     margin: var(--margin-1) 0;
   }
 
-
-
   /*customer 영역*/
 
-
   /* after service */
-
-
-
 } /*1200*/

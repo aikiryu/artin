@@ -35,8 +35,8 @@ address {
 }
 
 @font-face {
-  font-family: "winchester";
-  src: "../font/winchester.woff";
+  font-family: "irk";
+  src: url("../font/IropkeBatangM.woff");
 }
 
 :root {

@@ -1,0 +1,30 @@
+footer {
+  margin-top: var(--margin-4);
+  background-color: var(--font-color-main);
+  color: #eee;
+  padding: var(--margin-1) 0;
+}
+
+.fWrap {
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--margin-2);
+}
+footer h1 {
+  text-align: left;
+}
+
+footer h1 img {
+  height: 40px;
+}
+address {
+  margin-top: var(--margin-1);
+  font-style: normal;
+}
+
+address span {
+  display: block;
+}

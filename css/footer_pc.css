@@ -1,0 +1,21 @@
+@media screen and (min-width: 768px) {
+  .fWrap {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  address {
+    margin-left: var(--margin-2);
+    margin-top: 0;
+  }
+  address span {
+    margin-left: var(--margin-1);
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  footer {
+    border-top: 2px solid var(--main-color-light);
+  }
+}

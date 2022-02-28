@@ -7,7 +7,7 @@ let store = ()=>{
         parentIndex = $(this).parents('.storeWrap').index();
         
 
-        let imgSrc = `../images/${txt}.png`;
+        let imgSrc = `../../images/${txt}.png`;
         $('.view').stop().fadeIn();
         $('.view img').attr('src',imgSrc);
 
