@@ -230,7 +230,21 @@
   }
 
   /*reservation*/
-
+  #reserv .imgBox img{
+    width: 40%;
+  }
+  #reserv .imgBox{
+    margin-bottom: var(--margin-3);
+  }
+  
+  
+  #reserv .imgBox h3{
+    margin-top: var(--margin-2);
+  }
+  
+  #reserv .imgBox p{
+    font-size: 14px;
+  }
   
 #reserv label{
   width:100px;
@@ -239,7 +253,7 @@
 
 #reserv input[type=text]{
   width: calc(100% - 120px);
-
+  line-height: 30px;
 }
 
 #reserv textarea{
@@ -259,6 +273,38 @@
   color: #fff;
   margin: var(--margin-2) auto 0;
   display: block;
+}
+
+
+#review .pImg{
+  width: 10%;
+}
+
+#review .pTxt{
+  width: 90%;
+}
+
+#review .pInfo{
+  display: flex;
+  margin-top: 6px;
+}
+
+#review .pDate{
+  font-size: 12px;
+  margin-left: var(--margin-half);
+  width: 150px;
+flex: 0;
+
+}
+#review .pCust{
+  color: var(--font-color-sub);
+  font-size: 12px;
+  width: 150px;
+  flex: 0;
+
+}
+#review .pRate{
+  margin-left: 40px;
 }
 
 } /*괄호끝*/

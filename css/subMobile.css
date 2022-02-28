@@ -999,10 +999,32 @@ img.subDivider {
   background-image: url(../images/bnReserve.jpg);
 }
 
-#reserv{
-  max-width: 1008px;
+#reserv .imgBox{
+  margin-bottom: var(--margin-1);
+}
+
+#reserv .imgBox img{
+  width: 60%;
+  display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#reserv .imgBox h3{
+  color: var(--font-color-main);
+  margin-top: var(--margin-1);
+  letter-spacing: 4px;
+  font-family: 'irk';
+  font-weight: normal;
+  text-align: center;
+}
+
+#reserv .imgBox p{
+  color: var(--font-color-sub);
+  font-size: 14px;
+  text-align: center;
+  margin-top: var(--margin-half);
+  letter-spacing: 1px;
 }
 
 #reserv form:after{
@@ -1018,10 +1040,14 @@ img.subDivider {
 }
 
 #reserv form{
+  max-width: 1008px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: rgb(253, 252, 251);
   border-radius: 5px;
   padding:var(--margin-2);
   position: relative;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.1);
 }
 
 #reserv form div{
@@ -1031,6 +1057,7 @@ img.subDivider {
   justify-content: space-between;
   z-index: 2;
 }
+
 
 #reserv form div:nth-child(4){
   margin-bottom: var(--margin-2);
@@ -1075,4 +1102,79 @@ img.subDivider {
   text-align: center;
   margin: var(--margin-2) auto 0;
   display: block;
+}
+
+/* qna */
+
+.subBnQna{
+  background-image: url(../images/bgQna.jpg);
+}
+
+/* review */
+
+.subBnReview{
+  background-image: url(../images/bgReview.jpg);
+}
+
+#review{
+  max-width: 1008px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#review .bbs{
+  width: 100%;
+}
+#review .rowWrap{
+  display: flex;
+  align-items: center;
+}
+#review .bbs .row{
+  padding: var(--margin-half) 0;
+  border-bottom: 1px solid var(--main-color-light);
+}
+#review .pName{
+  font-size: 14px;
+  font-family: 'quicksand';
+  margin-bottom: 6px;
+  color: var(--font-color-point);
+}
+#review .pImg{
+  width: 30%;
+}
+#review .pImg img{
+  width: 100%;
+}
+#review .pTxt{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: var(--margin-half);
+  width: 70%;
+}
+
+#review .reviewTxt{
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#review .pInfo{
+  display: flex;
+  margin-top: 6px;
+}
+
+#review .pDate{
+  font-size: 12px;
+  margin-left: var(--margin-half);
+  flex: 4;
+
+}
+#review .pCust{
+  color: var(--font-color-sub);
+  font-size: 12px;
+  flex: 1;
+}
+#review .pRate{
 }
