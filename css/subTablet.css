@@ -307,4 +307,8 @@ flex: 0;
   margin-left: 40px;
 }
 
+#review .row:hover .reviewTxt{
+  text-decoration: underline;
+}
+
 } /*괄호끝*/
